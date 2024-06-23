@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maya - SuperBot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            width: 100%;
+            background-color: #0a74da;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .about-button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #0a74da;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .content {
+            width: 80%;
+            max-width: 800px;
+            margin-top: 20px;
+        }
+        .response-container {
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: white;
+            width: 100%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .input-container {
+            display: flex;
+            margin-top: 20px;
+        }
+        .input-container textarea {
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px 0 0 5px;
+        }
+        .input-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #0a74da;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 0 5px 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maya - SuperBot</h1>
+        <button class="about-button" onclick="document.getElementById('about').style.display='block'">About the creator</button>
+    </header>
+    <div id="about" style="display:none; padding: 20px; background-color: white; width: 80%; max-width: 800px; margin-top: 20px;">
+        <h2>About the creator</h2>
+        <p>Name: Krish Shrivastava</p>
+        <p>Date of Birth: April 27, 2005</p>
+        <p>Education: Undergraduate student pursuing a Bachelor of Business Administration (BBA)</p>
+        <p>Copyright Disclaimer© 2024</p>
+        <p>All rights reserved. This website and the GPT-2 Neo robot are protected by copyright laws. Unauthorized use, reproduction, or distribution of any part of this website or the GPT-2 Neo robot without explicit permission from the creator is strictly prohibited.</p>
+    </div>
+    <div class="content">
+        <iframe src="https://huggingface.co/spaces/Krish778/Krish" width="100%" height="600"></iframe>
+    </div>
+</body>
+</html>
